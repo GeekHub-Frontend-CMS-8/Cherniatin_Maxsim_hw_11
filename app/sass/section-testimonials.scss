@@ -14,8 +14,7 @@
     max-width: 900px;
     width: 100%;
     color: $color-light;
-    font-family: $font-Crimson-Text;
-    font-size: 20px;
+    font: 20px $font-Crimson-Text;
     font-style: italic;
     line-height: 24px;
     margin: 0 auto 68px;
@@ -23,8 +22,7 @@
   }
   &__quotes {
     color: $color-light;
-    font-family: $font-Crimson-Text;
-    font-size: 33px;
+    font: 33px $font-Crimson-Text;
     font-style: italic;
   }
   &__name {
@@ -36,8 +34,7 @@
   &__job {
     text-align: center;
     color: $color-light;
-    font-family: $font-Crimson-Text;
-    font-size: 14px;
+    font: 14px $font-Crimson-Text;
     font-style: italic;
   }
 }

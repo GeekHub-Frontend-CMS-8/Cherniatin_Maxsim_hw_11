@@ -32,8 +32,7 @@
   }
   &__description--date {
     color: $color-e3;
-    font-family: $font-Crimson-Text;
-    font-size: 12px;
+    font: 12px $font-Crimson-Text;
     font-style: italic;
     line-height: 18px;
     margin: 0 0 11px;

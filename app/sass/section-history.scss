@@ -1,7 +1,6 @@
 .section-history {
-  padding-top: 63px;
+  padding: 63px 0 82px;
   background-color: #ededed;
-  padding-bottom: 82px;
   &__box {
     display: flex;
     justify-content: space-between;
@@ -54,8 +53,7 @@
     background-color: $color-hex;
   }
   &__checkbox--first {
-    margin-left: -6px;
-    margin-top: 59px;
+    margin: 59px 0 0 -6px;
     padding-bottom: 192px;
   }
   &__circle {

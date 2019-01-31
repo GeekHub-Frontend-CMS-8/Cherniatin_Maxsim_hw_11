@@ -1,10 +1,9 @@
 .section-about {
   background-color: $color-e3;
-  padding-top: 31px;
-  padding-bottom: 76px;
+  padding: 31px 0 76px;
   &__container {
     background-color: $color-white;
-    max-widt: 1170px;
+    max-width: 1170px;
     margin-bottom: 39px;
   }
   &__wrapper--img {
@@ -18,7 +17,7 @@
   }
   &__description {
     color: $color-hex;
-    font: 400 14px "Crimson Text - Roman";
+    font: 400 14px $font-Crimson-Text;
     max-width: 1026px;
     margin: 0 auto 45px;
   }
@@ -26,24 +25,11 @@
     display: flex;
     justify-content: center;
   }
-  &__link--text-contact {
-    font: 400 13px $font-Montserrat;
-    border: 2px solid $color-hex;
-    padding: 14px 25px;
-    display: inline-block;
-    box-sizing: border-box;
-    color: $color-hex;
-    text-decoration: none;
-    margin: 0 1px 50px;
-    &:hover {
-      background-color: $color-hex;
-      color: $color-ce;
-    }
-  }
+  &__link--text-contact,
   &__link--text-portfolio {
     font: 400 13px $font-Montserrat;
     border: 2px solid $color-hex;
-    padding: 14px 34px;
+    padding: 14px 25px;
     display: inline-block;
     box-sizing: border-box;
     color: $color-hex;

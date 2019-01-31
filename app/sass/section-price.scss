@@ -46,8 +46,7 @@
     margin: 0 auto 51px;
     max-width: 153px;
     color: $color-hex;
-    font-family: $font-Crimson-Text;
-    font-size: 16px;
+    font: 16px $font-Crimson-Text;
     font-style: italic;
     line-height: 30px;
   }

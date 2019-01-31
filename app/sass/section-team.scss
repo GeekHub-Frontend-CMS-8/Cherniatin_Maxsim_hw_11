@@ -1,7 +1,6 @@
 .section-team {
   background: url("../img/team-img@2x.png") no-repeat center/cover;
-  padding-top: 71px;
-  padding-bottom: 71px;
+  padding: 71px 0 71px;
   &__list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,8 +51,7 @@
   }
   &__description {
     color: $color-hex;
-    font-family: $font-Crimson-Text;
-    font-size: 14px;
+    font: 14px $font-Crimson-Text;
     font-style: italic;
     margin-bottom: 9px;
   }

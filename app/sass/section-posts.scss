@@ -33,8 +33,7 @@
   }
   &__date {
     color: $color-hex;
-    font-family: $font-Crimson-Text;
-    font-size: 14px;
+    font: 14px $font-Crimson-Text;
     font-style: italic;
     margin-bottom: 5px;
     border-bottom: 2px solid $color-b7;
@@ -64,8 +63,7 @@
   }
   &__numeral {
     color: $color-81;
-    font-family: $font-Crimson-Text;
-    font-size: 14px;
+    font: 14px $font-Crimson-Text;
     font-style: italic;
   }
   &__eyes {

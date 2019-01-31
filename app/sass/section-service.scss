@@ -1,7 +1,6 @@
 .section-service {
   background: url("../img/service-img.png") no-repeat center/cover;
-  padding-top: 69px;
-  padding-bottom: 85px;
+  padding: 69px 0 85px;
   &__list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -42,7 +41,7 @@
   }
   &__description {
     color: $color-d8;
-    font: 400 14px "Crimson Text - Roman";
+    font: 400 14px $font-Crimson-Text;
     max-width: 203px;
     line-height: 20.31px;
     letter-spacing: 1.4px;
